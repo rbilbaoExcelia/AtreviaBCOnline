@@ -4,7 +4,7 @@
   "publisher": "excelia S.L.",
   "brief": "Desarrollo AtreviaOnline",
   "description": "Desarrollo AtreviaOnline",
-  "version": "23.5.0.40",
+  "version": "23.5.0.41",
   "privacyStatement": "https://excelia.com/politica-de-privacidad/",
   "EULA": "https://excelia.com/politica-de-cookies/",
   "help": "https://excelia.com/sobre-nosotros/",
@@ -12,7 +12,7 @@
   "runtime": "11.0",
   "target": "Cloud",
   "application": "25.0.0.0",
-  "platform": "25.2.35623.0",
+  "platform": "25.2.0.0",
   "contextSensitiveHelpUrl": "http://excelia.com",
   "resourceExposurePolicy": {
     "allowDebugging": true,
@@ -21,8 +21,8 @@
     "applyToDevExtension": false
   },
   "features": [
-    "TRANSLATIONFILE",
-    "GENERATECAPTIONS"
+    "TranslationFile",
+    "GenerateCaptions"
   ],
   "dependencies": [
     {
@@ -47,10 +47,5 @@
       "from": 52810,
       "to": 52811
     }
-  ],
-  "build": {
-    "by": "AL Language Extension,16.0.1523709",
-    "timestamp": "2025-06-17T10:53:06.7707565+00:00",
-    "compilerVersion": "16.0.23.16427"
-  }
+  ]
 }
